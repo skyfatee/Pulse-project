@@ -2,60 +2,60 @@
     font-family: 'MuseoSansCyrl', sans-serif;
 }
 
-.container {
-    max-width: 950px;
-    margin: 0 auto;
+    .container {
+        max-width: 950px;
+            margin: 0 auto;
 }
 
-.promo {
+    .promo {
     min-height: 650px;
-    padding: 21px 0 90px 0;
-    background: url('../../img/bg/bg1.jpg') center center / cover no-repeat 
+        padding: 21px 0 90px 0;
+            background: url('../../img/bg/bg1.jpg') center center / cover no-repeat 
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .header {
+        display: flex;
+            justify-content: space-between;
+                align-items: center;
 }
 
-.header_logo {
-    width: 250px;
-    width: 100%;
+    .header_logo {
+        width: 250px;
+            width: 100%;
 }
 
-.header_official {
-    color: #FFF;
-    text-align: center;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 12px;
-    font-weight: 500;
+    .header_official {
+        color: #FFF;
+        text-align: center;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 12px;
+        font-weight: 500;
 }
 
-span {
-    display: block;
-    color: #FFF;
-    margin-top: 7px;
-    text-align: center;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 18px;
-    font-weight: 500;
+    span {
+        display: block;
+        color: #FFF;
+        margin-top: 7px;
+        text-align: center;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 18px;
+        font-weight: 500;
 }
 
-.header_phone {
-    display: block;
-    color: #FFF;
-    text-align: right;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 18px;
-    font-weight: 700;
+    .header_phone {
+        display: block;
+        color: #FFF;
+        text-align: right;
+        font-family: "MuseoSansCyrl-700";
+        font-size: 18px;
+        font-weight: 700;
 }
 
-.button {
-    background-color:#C70101;
-    width: 153px;
-    height: 32px;
-    border-radius: 5px;
+    .button {
+        width: 153px;
+            height: 32px;
+                background-color:#C70101;
+                    border-radius: 5px;
     border: none;
 
     color: #FFF;
@@ -66,125 +66,125 @@ span {
     text-transform: uppercase;
 }
 
-.promo_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: 90px;
+    .promo_wrapper {
+        display: flex;
+            flex-direction: column;
+                align-items: flex-end;
+                    margin-top: 90px;
 }
 
-.promo_header {
-    color: #FFF;
-    text-align: right;
-    font-family: MuseoModerno;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 42px; /* 100% */
-    text-transform: uppercase;
+    .promo_header {
+        color: #FFF;
+        text-align: right;
+        font-family: MuseoModerno;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px; 
+        text-transform: uppercase;
 }
 
-.promo_subheader {
-    color: #FFF;
-    margin-top: 17px;
-    text-align: right;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 24px;
-    text-transform: uppercase;
+    .promo_subheader {
+        color: #FFF;
+        margin-top: 17px;
+        text-align: right;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
 }
 
-.promo_icons {
-    margin-top: 60px;
-    width: 425px;
-    display: flex;
-    justify-content: space-between;
+    .promo_icons {
+        display: flex;
+            justify-content: space-between;
+                width: 425px;
+                    margin-top: 60px;
 }
 
-.promo_icon {
-    display: block;
-    width: 136px;
+    .promo_icon {
+        display: block;
+        width: 136px;
 
-    color: #FFF;
-    text-align: center;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    font-weight: 300;
+        color: #FFF;
+        text-align: center;
+        font-family: "MuseoSansCyrl-300";
+        font-size: 16px;
+        font-weight: 300;
 }
 
 /* Animation */
 
-.screen_messages {
-    animation-name: test2;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;}
-    :hover {
-    animation-play-state: none;}
-    @keyframes test2 {
-         from {transform: scale(0.9);}
-    50% {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(0.9);
-    }
+    .screen_messages {
+        animation-name: test2;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;}
+        :hover {
+        animation-play-state: none;}
+        @keyframes test2 {
+            from {transform: scale(0.9);}
+        50% {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(0.9);
+        }
 }
 
-.button_main {
-    margin-top: 67px;
-    background-color:#C70101;
-    width: 300px;
-    height: 50px;
-    border-radius: 5px;
-    border: none;
+    .button_main {
+        width: 300px;
+            height: 50px;
+                margin-top: 67px;
+                    background-color:#C70101;
+                        border-radius: 5px;
+        border: none;
 
-    color: #FFF;
-    text-align: center;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
+        color: #FFF;
+        text-align: center;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
 }
 
-.promo_link {
-    margin-top: 10px;
-    color: #FFF;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 16px;
-    font-weight: 500;
+    .promo_link {
+        margin-top: 10px;
+        color: #FFF;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 16px;
+        font-weight: 500;
 }
 
-a {
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration-line: underline;
+    a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration-line: underline;
 }
 
-.benefit {
-    min-height: 473px;
-    padding: 73px 0 73px 0;
+    .benefit {
+        min-height: 473px;
+        padding: 73px 0 73px 0;
 }
 
-.title {
-    color: #0D0D0D;
-    margin-bottom: 60px;
-    text-align: center;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 30px; /* 100% */
+    .title {
+        color: #0D0D0D;
+        margin-bottom: 60px;
+        text-align: center;
+        font-family: "MuseoSansCyrl-700";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px; 
 }
 
-.benefit_wrapper {
+    .benefit_wrapper {
     display: flex;
-    justify-content: space-between;
+        justify-content: space-between;
 }
 
-.benefit_icon {
-    min-width: 70px;
-    min-height: 70px;
+    .benefit_icon {
+        min-width: 70px;
+            min-height: 70px;
 
     color: #0D0D0D;
     text-align: center;
@@ -212,63 +212,63 @@ a {
     }
 }
 
-.benefit_descr {
-    max-width: 269px;
-    max-height: 91px;
-    margin-top: 20px;
-    color: #0D0D0D;
-    text-align: center;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    font-weight: 300;
+    .benefit_descr {
+        max-width: 269px;
+        max-height: 91px;
+        margin-top: 20px;
+        color: #0D0D0D;
+        text-align: center;
+        font-family: "MuseoSansCyrl-300";
+        font-size: 16px;
+        font-weight: 300;
 }
 
-.benefit span {
-    display: inline;
-    color: #F00;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    font-weight: 300;
-    text-decoration-line: underline;
-    text-transform: uppercase;
+    .benefit span {
+        display: inline;
+        color: #F00;
+        font-family: "MuseoSansCyrl-300";
+        font-size: 16px;
+        font-weight: 300;
+        text-decoration-line: underline;
+        text-transform: uppercase;
 }
 
-.consultation {
-    min-height: 680px;
-    padding: 100px 0 100px 0;
-    background: url('../../img/bg/bg2.jpg') center center / cover no-repeat ;
+    .consultation {
+        min-height: 680px;
+            padding: 100px 0 100px 0;
+                background: url('../../img/bg/bg2.jpg') center center / cover no-repeat ;
 }
 
-.title_left {
-    color: #FFF;
-    text-align: left;
-    font-size: 36px;
-    font-family: "MuseoSansCyrl-700";
-    font-weight: 700;
-    text-transform: uppercase;
+    .title_left {
+        color: #FFF;
+        text-align: left;
+        font-size: 36px;
+        font-family: "MuseoSansCyrl-700";
+        font-weight: 700;
+        text-transform: uppercase;
 }
 
-.consultation_descr {
-    color: #FFF;
-    text-align: left;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 20px;
-    font-weight: 500;
+    .consultation_descr {
+        color: #FFF;
+        text-align: left;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 20px;
+        font-weight: 500;
 }
 
-.feed-form {
-    margin-top: 36px;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+    .feed-form {
+        display: flex;
+            flex-direction: column;
+                width: 300px;
+                    margin-top: 36px;
 }
 
-input {
-    width: 303px;
-    height: 54px;
-    border-radius: 5px;
+    input {
+        width: 303px;
+            height: 54px;
+                border-radius: 5px;
+                    margin-bottom: 15px;
     border: none;
-    margin-bottom: 15px;
 
     color: #4B4B4B;
     padding: 0 20px;
@@ -277,12 +277,12 @@ input {
     font-weight: 400;
 }
 
-.button_submit {
-    width: 100%;
-    height: 58px;
-    border-radius: 5px;
+    .button_submit {
+        width: 303px;
+            height: 58px;
+                border-radius: 5px;
+                    background-color: #C70101;
     border: none;
-    background-color: #C70101;
 
     color: #FFF;
     text-align: center;
@@ -292,38 +292,38 @@ input {
     text-transform: uppercase;
 }
 
-.carousel {
-    padding: 90px 0;
+    .carousel {
+        padding: 90px 0;
 }
 
-.carousel_inner{
-    position: relative;
-    width: 750px;
-    margin: 0 auto;
+    .carousel_inner{
+        position: relative;
+            width: 750px;
+                margin: 0 auto;
 }
 
-.slick-prev {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -66px;
-    width: 31px;
-    height: 50px;
+    .slick-prev {
+        position: absolute;
+            width: 31px;
+                height: 50px;
+                    top: 50%;
+                        left: -66px;
+                            transform: translateY(-50%);
+                                background-color: #fff;
     border: none;
-    background-color: #fff;
 }
 
-.slick-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: -66px;
+    .slick-next {
+        position: absolute;
+            top: 50%;
+                transform: translateY(-50%);
+                    right: -66px;
+                        background-color: #fff;
     border: none;
-    background-color: #fff;
 }
 
-.catalog {
-    padding-bottom: 100px;
+    .catalog {
+        padding-bottom: 100px;
 }
 
 .catalog_title {
@@ -336,212 +336,212 @@ input {
     text-transform: uppercase;
 }
 
-.catalog_tabs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    padding-left: 0px;
+    .catalog_tabs {
+        display: flex;
+            justify-content: center;
+                align-items: center;
+                    margin-top: 50px;
+                        margin-bottom: 0px;
+                            padding-left: 0px;
     list-style-type: none;
 }
 
-.catalog_tab {
-    width: 222px;
-    height: 52px;
-    border: 2px solid #D0D0D0;
-    transform: skewX(-25deg);
-    margin: 0 5px;
+    .catalog_tab {
+        width: 222px;
+            height: 52px;
+                border: 2px solid #D0D0D0;
+                    transform: skewX(-25deg);
+                        margin: 0 5px;
     cursor: pointer;
 }
 
-.catalog_red_tab {
-    width: 223px;
-    height: 52px;
-    background-color: #C70101;
-    transform: skewX(-25deg);
-    margin: 0 5px;
+    .catalog_red_tab {
+        width: 223px;
+            height: 52px;
+                background-color: #C70101;
+                    transform: skewX(-25deg);
+                        margin: 0 5px;
     cursor: pointer;
 }
 
-.catalog_header {
-    color: #6B6B6B;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 48px;
-    transform: skewX(25deg);
+    .catalog_header {
+        color: #6B6B6B;
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 48px;
+        transform: skewX(25deg);
 }
 
-.catalog_white_header {
-    color: #FFF;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    text-transform: uppercase;
-    transform: skewX(25deg);
+    .catalog_white_header {
+        color: #FFF;
+        text-transform: uppercase;
+        transform: skewX(25deg);
+        font-size: 18px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
 }
 
-.catalog_content {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    .catalog_content {
+        display: flex;
+            justify-content: space-between;
+                align-items: center;
 }
 
-.catalog_item {
-    margin-top: 60px;
-    margin-right: 20px;
-    width: 303px;
-    min-height: 442px;
-    border: 2px solid #D0D0D0;
-    padding: 20px 18px 21px 23px;
+    .catalog_item {
+        width: 303px;
+            min-height: 442px;
+                margin-top: 60px;
+                    margin-right: 20px;
+                        border: 2px solid #D0D0D0;
+                            padding: 20px 18px 21px 23px;
+}
+    .catalog_item_img {
+        display: block;
+            max-width: 100%;
+                height: 200px;
+                    margin: 0px auto;
 }
 
-.catalog_item_img {
-    display: block;
-    max-width: 100%;
-    height: 200px;
-    margin: 0px auto;
+    .catalog_item_subtitle {
+        color: #0D0D0D;
+        margin-top: 20px;
+        text-align: center;
+        font-family: "MuseoSansCyrl-700";
+        font-size: 18px;
+        font-weight: 700;
 }
 
-.catalog_item_subtitle {
-    color: #0D0D0D;
-    margin-top: 20px;
-    text-align: center;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 18px;
-    font-weight: 700;
+    .catalog_item_descr {
+        color: #0D0D0D;
+        margin-top: 15px;
+        text-align: center;
+        font-family: "MuseoSansCyrl-300";
+        font-size: 16px;
+        font-weight: 300;
 }
 
-.catalog_item_descr {
-    color: #0D0D0D;
-    margin-top: 15px;
-    text-align: center;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    font-weight: 300;
+    .more {
+        display: block;
+        color: #C70101;
+        margin: 10px 0px 15px 0px;
+        text-align: center;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration-line: underline;
 }
 
-.more {
-    display: block;
-    color: #C70101;
-    margin: 10px 0px 15px 0px;
-    text-align: center;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration-line: underline;
+    hr {
+        background-color: #E8E8E8;
+        margin-top: 17px;
+        margin-bottom: 21px;
+        border-bottom: none;
 }
 
-hr {
-    background-color: #E8E8E8;
-    margin-top: 17px;
-    margin-bottom: 21px;
-    border-bottom: none;
-}
-
-.catalog_item_footer {
-    margin-bottom: 21px;
+    .catalog_item_footer {
+        margin-bottom: 21px;
 }
 
 
-.catalog_item_old_price {
-    color: #555;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration-line: line-through;
+    .catalog_item_old_price {
+        color: #555;
+        font-family: "MuseoSansCyrl-300";
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration-line: line-through;
 }
     
-.catalog_item_price {
-    color: #050505;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 20px;
-    font-weight: 700;
+    .catalog_item_price {
+        color: #050505;
+        font-family: "MuseoSansCyrl-700";
+        font-size: 20px;
+        font-weight: 700;
 }
 
-.button_catalog_btn {
-    width: 135px;
-    height: 44px;
-    background-color: #C70101;
+    .button_catalog_btn {
+        width: 135px;
+            height: 44px;
+                background-color: #C70101;
 
-    color: #FFF;
-    text-align: center;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    border-radius: 5px;
-    border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: none;
 }
 
-.reviews {
-    padding-bottom: 60px;
+    .reviews {
+        padding-bottom: 60px;
 }
 
-.reviews_title {
-    color: #0D0D0D;
-    text-align: center;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 30px;
-    margin-bottom: 60px;
-    text-transform: uppercase;
+    .reviews_title {
+        color: #0D0D0D;
+        text-align: center;
+        font-family: "MuseoSansCyrl-700";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 60px;
+        text-transform: uppercase;
 }
 
-.review_text {
-    margin-top: 60px;
-    margin-left: 62px;
-    padding-right: 60px;
+    .review_text {
+        margin-top: 60px;
+        margin-left: 62px;
+        padding-right: 60px;
 }
 
-.review_name_surname {
-    color: #0D0D0D;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 18px;
-    font-weight: 700;
+    .review_name_surname {
+        color: #0D0D0D;
+        font-family: "MuseoSansCyrl-700";
+        font-size: 18px;
+        font-weight: 700;
 }
 
-.review_subtitle {
-    color: #646464;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 14px;
-    font-weight: 500;
+    .review_subtitle {
+        color: #646464;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 14px;
+        font-weight: 500;
 }
 
-.review_descr {
-    color: #0D0D0D;
-    margin-top: 10px;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    font-weight: 300;
+    .review_descr {
+        color: #0D0D0D;
+        margin-top: 10px;
+        font-family: "MuseoSansCyrl-300";
+        font-size: 16px;
+        font-weight: 300;
 }
 
-.review_item {
-    display: flex;
+    .review_item {
+        display: flex;
 }
 
-.review_img {
-    margin-top: 60px;
-    width: 169px;
-    height: 169px;
+    .review_img {
+        width: 169px;
+            height: 169px;
+                margin-top: 60px;
 }
 
-.footer {
-    height: 630px;
-    position: relative;
+    .footer {
+        position: relative;
+            height: 630px;
 }
 
-.footer_info {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 459px;
-    height: 270px;
-    background-color: #C70101;;
-    padding: 50px 53px 56px 53px;
+    .footer_info {
+        position: absolute;
+            width: 459px;
+                height: 270px;
+                    top: 0;
+                        left: 50%;
+                            transform: translateX(-50%);
+                                background-color: #C70101;;
+                                    padding: 50px 53px 56px 53px;
 }
 
     .footer_addr {
@@ -571,26 +571,39 @@ hr {
 
     .footer_social-icons {
         width: 53px;
-        height: 52px;
+            height: 52px;
 }
 
     .overlay {
         display: none;
-        width: 100%;
-        height: 100%;
-        top: 0;
+            width: 100%;
+                height: 100%;
+                    top: 0;
 }
 
     .modal {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 382px;
-        height: 410px;
-        background-color: #FAFAFA;
-        padding: 40px 35px 40px 35px;
-        overflow: hidden;
+        width: 421px;
+            height: 542px;
+                top: 50%;
+                    left: 50%;
+                        transform: translate(-50%, -50%);
+                            background-color: #FAFAFA;
+                                padding: 40px 50px 40px 50px;
+                                    overflow: hidden;
 }
+    .error {
+        border: 1px solid rgb(255, 0, 0);        
+    }
+    label.error {
+        text-align: center;
+        font-size: 13px;
+        font-family: "MuseoSansCyrl-700";
+        border: none;
+        margin-bottom: 15px;
+    }
+    #consultation-form {
+        color: #FFF;
+    }
 
     .modal_close {
         position: absolute;
@@ -628,21 +641,21 @@ hr {
 
     #order {
         display: none;
- }
+}
 
     #thanks {
         display: none;
-    }
+}
 
     .modal_mini {
         width: 382px;
-        min-height: 143px;
+            min-height: 143px;
 }
 
 
    /*  Responsive */
 
-   @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 }
 
@@ -658,7 +671,7 @@ hr {
     }
     .logo {
         width: 167px;
-        height: 30px;
+            height: 30px;
     }
     .header_official{
         font-size: 9px;
@@ -668,14 +681,14 @@ hr {
     }
     .button{
         width: 114px;
-        height: 27px;
-        font-size: 9px;
+            height: 27px;
+                font-size: 9px;
     }
     .button_main{
         width: 230px;
-        height: 40px;
-        font-size: 12px;
-        margin-top: 47px;
+            height: 40px;
+                margin-top: 47px;
+                    font-size: 12px;
     }
     span {
         font-size: 12px;
@@ -685,67 +698,67 @@ hr {
         line-height: 37px;
     }
     .promo_subheader {
-        font-size: 16px;
         margin-top: 10px;
+        font-size: 16px;
     }
     .promo_icon {
         width: 90px;
-        font-size: 12px;
+            font-size: 12px;
     }
     .timer {
         width: 36px;
-        height: 34px;
+            height: 34px;
     }
     
     .hand_cart {
         width: 36px;
-        height: 34px;
+            height: 34px;
     }
     .screen_messages{
         width: 36px;
-        height: 34px;
+            height: 34px;
     }
     a {
         font-size: 12px;
     }
     .promo_link {
-        font-size: 12px;
         margin-top: 15px;
+        font-size: 12px;
     }
     .benefit {
         min-height: 376px;
-        padding: 48px 0 48px 0;
+            padding: 48px 0 48px 0;
     }
     .title {
-        font-size: 21px;
         margin-bottom: 40px;
+        font-size: 21px;
     }
     .icons {
         width: 46px;
-        height: 43px;
+            height: 43px;
     }
     .benefit_icon_animated{
         width: 46px;
-        height: 43px;
+            height: 43px;
     }
     .benefit_icon{
-        font-size: 16px;
         min-width: 46px;
-        min-height: 43px;
-        margin-right: 12px;
+            min-height: 43px;
+                margin-right: 12px;
+                    font-size: 16px;
     }
     .benefit_descr{
-        margin-top: 13px;
-        font-size: 12px;
         max-width: 179px;
-        max-height: 61px;
+            max-height: 61px;
+                margin-top: 13px;
+                    font-size: 12px;
     }
     .benefit span {
         font-size: 12px;
     }
     .consultation {
         min-height: 453px;
-        padding: 70px 0 70px 0;
+            padding: 70px 0 70px 0;
     }
     .title_left {
         font-size: 24px;
@@ -758,8 +771,8 @@ hr {
     }
     input {
         width: 202px;
-        height: 36px;
-        font-size: 10px;
+            height: 36px;
+                font-size: 10px;
     }
     .button_submit {
         height: 38px;
@@ -782,13 +795,13 @@ hr {
     }
     .catalog_tab {
         width: 157px;
-        height: 39px;
-        margin: 0 10px;
+            height: 39px;
+                margin: 0 10px;
     }
     .catalog_red_tab {
         width: 157px;
-        height: 39px;
-        margin: 0 10px;
+            height: 39px;
+                margin: 0 10px;
     }
     .catalog_white_header {
         font-size: 12px;
@@ -803,18 +816,18 @@ hr {
         margin-top: 25px;
     }
     .catalog_item {
-        margin-top: 40px;
-        margin-right: 15px;
-        width: 202px;
         min-height: 294px;
-        padding: 18px 14px 16px 18px;
+            width: 202px;
+                margin-top: 40px;
+                    margin-right: 15px;
+                        padding: 18px 14px 16px 18px;
     }
     .catalog_item_content {
         height: 300px;
     }
     .catalog_item_img {
         max-width: none;
-        height: 150px;
+            height: 150px;
     }
     .catalog_item_subtitle {
         margin-top: 15px;
@@ -825,8 +838,8 @@ hr {
         font-size: 12px;
     }
     .more {
-        font-size: 9px;
         margin: 8px 0px 12px 0px;
+        font-size: 9px;
     }
     .catalog_item_old_price {
         font-size: 12px;
@@ -836,15 +849,15 @@ hr {
     }
     .button_catalog_btn {
         width: 90px;
-        height: 29px;
-        font-size: 9px;
+            height: 29px;
+                font-size: 9px;
     }
     .reviews {
         padding-bottom: 50px;
     }
     .reviews_title {
-        font-size: 24px;
         margin-bottom: 50px;
+        font-size: 24px;
     }
     .review_img {
         margin-top: 50px;
@@ -867,23 +880,23 @@ hr {
     }
     .footer_info {
         width: 300px;
-        height: 210px;
-        padding: 33px 35px 37px 35px;
+            height: 210px;
+                padding: 33px 35px 37px 35px;
     }
     .footer_addr {
         margin-bottom: 30px;
         font-size: 17px;
     }
     .footer_phone {
-        font-size: 16px;
         margin-bottom: 26px;
+        font-size: 16px;
     }
     .footer_social-item {
         margin: 0 15px;
     }
     .footer_social-icons {
         width: 41px;
-        height: 42px;
+            height: 42px;
     }
     .footer_social-item {
         margin: 0 15px;
@@ -899,22 +912,22 @@ hr {
     }
     .logo {
         width: 126px;
-        height: 23px;
+            height: 23px;
     }
     .header_official {
         font-size: 8px;
     }
     span {
-        font-size: 10px;
         margin-top: 6px;
+        font-size: 9px;
     }
     .header_phone {
         font-size: 11px;
     }
     .button {
         width: 90px;
-        height: 24px;
-        font-size: 6px;
+            height: 23px;
+                font-size: 7px;
     }
     .promo_header {
         font-size: 19px;
@@ -925,32 +938,32 @@ hr {
     }
     .promo_icons {
         width: 263px;
-        margin-top: 40px;
+            margin-top: 40px;
     }
     .promo_icon {
         font-size: 11px;
     }
     .timer {
         width: 34px;
-        height: 32px;
+            height: 32px;
     }
     .hand_cart {
         width: 36px;
-        height: 34px;
+            height: 34px;
     }
     .screen_messages {
         width: 34px;
-        height: 32px;
+            height: 32px;
     }
     .button_main {
         width: 153px;
-        height: 36px;
-        font-size: 8px;
-        margin-top: 35px;
+            height: 34px;
+                margin-top: 35px;
+                    font-size: 8px;
     }
     .promo_link {
+        margin-top: 12px;
         font-size: 11px;
-        margin-top: 12.5px;
     }
     a {
         font-size: 11px;
@@ -959,8 +972,8 @@ hr {
         padding: 34px 0 34px 0;
     }
     .title {
-        font-size: 18px;
         margin-bottom: 30px;
+        font-size: 18px;
     }
     .benefit_wrapper {
         display: block;
@@ -970,29 +983,28 @@ hr {
     }
     .icons {
         width: 49px;
-        height: 46px;
+            height: 46px;
     }
     .benefit_icon_animated {
         width: 44px;
-        height: 43px;
+            height: 43px;
     }
     .benefit_descr {
-        transform: translateX(60%);
+        max-width: 236px;
+        max-height: 33px;
+        margin: 5px auto 60px auto;
         font-size: 12px;
-        max-height: 36px;
-        margin-bottom: 76px;
-        margin-top: 6px;
     }
     .benefit span {
         font-size: 11px;
     }
     .consultation {
         min-height: 302px;
-        padding: 70px 66px 66px 70px;
+            padding: 70px 66px 66px 70px;
     }
     .title_left {
-        font-size: 16px;
         margin-bottom: 10px;
+        font-size: 16px;
     }
     .consultation_descr {
         font-size: 14px;
@@ -1003,13 +1015,29 @@ hr {
        input {
         width: 159px;
             height: 33px;
-                font-size: 9px;
-                margin-bottom: 13px;
+                font-size: 8px;
+                    margin-bottom: 13px;
     }
+    label.error {
+        text-align: start;
+        font-size: 8px;
+        margin-bottom: 10px;
+}
+    .modal {
+        width: 321px;
+            height: 311px;
+                padding: 40px 60px 40px 60px;
+    }
+    .modal_subtitle {
+        font-size: 13px;
+    }
+    .modal_descr {
+        font-size: 11px;
+}
     .button_submit {
         height: 33px;
-        width: 159px;
-        font-size: 8px;
+            width: 159px;
+                font-size: 8px;
     }
     .carousel {
         padding: 45px;
@@ -1067,11 +1095,11 @@ hr {
     }
     .more {
         font-size: 11px;
-        margin: 10px 0px 12px 0px;
+        font-size: 11px;
     }
     hr {
         margin-top: 15px;
-        margin-bottom: 13px;
+            margin-bottom: 13px;
     }
     .catalog_item_old_price {
         font-size: 14px;
@@ -1081,16 +1109,16 @@ hr {
         margin-bottom: 5px;
     }
     .button_catalog_btn {
-        font-size: 8px;
         width: 300px;
         height: 34px;
+        font-size: 8px;
     }
     .reviews {
         padding-bottom: 50px;
     }
     .reviews_title {
-        font-size: 18px;
         margin-bottom: 20px;
+        font-size: 18px;
     }
     .review_img {
         width: 96px;
@@ -1103,45 +1131,44 @@ hr {
         font-size: 11px;
     }
     .review_descr {
+        margin-top: 9px;
         font-size: 11px;
-            margin-top: 9px;
     }
     .footer_info {
         width: 231px;
-        height: 109px;
-        padding: 22px 23px 22px 23px;
+            height: 116px;
+                padding: 22px 23px 22px 23px;
     }
     .footer_addr {
         margin-bottom: 20px;
-        font-size: 12px;
+        font-size: 13px;
     }
     .footer_phone {
-        font-size: 11px;
         margin-bottom: 20px;
+        font-size: 11px;
     }
-    .footer_social-icons {
-        width: 27px;
-        height: 28px;
-    }
+
 }
 @media screen and (max-width: 390px) {
-     .logo {
+    .logo {
         width: 103px;
-        height: 19px;
+            height: 19px;
     }
     .hand_cart {
         width: 34px;
-        height: 32px;
+            height: 32px;
     }
     .promo_icon {
         font-size: 9px;
     }
+    .benefit {
+        padding: 29px 0 29px 0;
+    }
     .benefit_descr {
-        transform: translateX(50%);
-        margin-bottom: 60px;
-        margin-top: 8px;
-        font-size: 12px;
+        max-width: 209px;
         max-height: 36px;
+        margin: 4px auto 60px auto;
+        font-size: 12px;
     }
     .header_official {
         font-size: 6px;
@@ -1149,10 +1176,92 @@ hr {
     span {
         font-size: 8px;
     }
-    .button_catalog_btn {
+    .consultation {
+        padding: 50px 56px 50px 56px;
+    }
+    .title_left {
+        margin-bottom: 9px;
+        font-size: 15px;
+    }
+    .consultation_descr {
+        font-size: 13px;
+    }
+    .modal {
+        width: 263px;
+            height: 284px;
+                padding: 30px 50px 30px 50px;
+    }
+    .modal_subtitle {
+        font-size: 11px;
+    }
+    .modal_descr {
+        font-size: 9px;
+    }
+
+    input {
+        width: 156px;
+        height: 31.5px;
         font-size: 8px;
-        width: 265px;
-        height: 33px;
+        margin-bottom: 10px;
+    }
+    label.error {
+        text-align: start;
+        font-size: 7.5px;
+        margin-bottom: 9px;
+    }
+    .button_submit {
+        height: 31.5px;
+        width: 156px;
+        font-size: 8px;
+    }
+    .catalog_title {
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .catalog_red_tab {
+        width: 109px;
+            height: 36px;
+    }
+    .catalog_white_header {
+        font-size: 10px;
+        line-height: 38px;
+    }
+    .catalog_tabs {
+        margin-top: 19px;
+    }
+    .catalog_tab {
+        width: 109px;
+            height: 36px;
+    }
+    .catalog_header {
+        font-size: 10px;
+        line-height: 34px;
+    }
+    .catalog_item {
+        margin-top: 35px;
+        padding: 13px 60px 9px 60px;
+    }
+    .catalog_item_subtitle {
+        margin-top: 9px;
+        font-size: 14px;
+    }
+    .catalog_item_descr {
+        font-size: 13px;
+    }
+    .more {
+        font-size: 10px;
+    }
+    .catalog_item_old_price {
+        font-size: 13px;
+    }
+    .catalog_item_price {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .button_catalog_btn {
+        width: 246px;
+            height: 33px;
+                font-size: 8px;
     }
     .footer_phone {
         font-size: 12px;
@@ -1163,14 +1272,14 @@ hr {
 @media screen and (max-width: 375px) {
     .promo {
         min-height: 288px;
-        padding: 21px 40px 21px;
+            padding: 21px 40px 21px;
     }
     .promo_wrapper {
         margin-top: 35px;
     }
     .logo {
         width: 96px;
-        height: 17px;
+            height: 17px;
     }
     .header_official {
         font-size: 7px;
@@ -1183,8 +1292,8 @@ hr {
     }
     .button {
         width: 63px;
-        height: 19px;
-        font-size: 5px;
+            height: 19px;
+                font-size: 5px;
     }
     .promo_header {
         font-size: 16px;
@@ -1195,32 +1304,32 @@ hr {
     }
     .timer {
         width: 28px;
-        height: 26px;
+            height: 26px;
     }
     .hand_cart {
         width: 31px;
-        height: 29px;
+            height: 29px;
     }
     .screen_messages {
         width: 28px;
-        height: 26px;
+            height: 26px;
     }
     .benefit_icon_animated {
         width: 34px;
-        height: 33px;
+            height: 33px;
     }
     .promo_icon {
         font-size: 8px;
     }
     .promo_icons {
         width: 241px;
-        margin-top: 35px;
+            margin-top: 35px;
     }
     .button_main {
         width: 140px;
-        height: 26px;
-        font-size: 7px;
-        margin-top: 25px;
+            height: 26px;
+                font-size: 7px;
+                    margin-top: 25px;
     }
     a {
         font-size: 9px;
@@ -1229,8 +1338,8 @@ hr {
         font-size: 9px;
     }
     .title {
-        font-size: 16px;
         margin-bottom: 26px;
+        font-size: 16px;
     }
     .benefit {
         padding: 21px 0 16px 0;
@@ -1240,38 +1349,38 @@ hr {
     }     
     .icons {
         width: 41px;
-        height: 39px;
+            height: 39px;
     }
     .benefit_descr {
-        transform: translateX(45%);
-        font-size: 11px;
         max-height: 33px;
-        margin-top: 4px;
+        margin: 3px auto 60px auto;
+        font-size: 11px;
     }
     .benefit span {
         font-size: 10px;
     }
     .title_left {
-        font-size: 14px;
         margin-bottom: 8px;
+        font-size: 14px;
     }
     .consultation {
         min-height: 300px;
-        padding: 43px 60px 43px 60px;
+            padding: 43px 60px 43px 60px;
     }
     .consultation_descr {
         font-size: 12px;
     }
     input {
         width: 126px;
-        height: 27px;
-        font-size: 8px;
-        margin-bottom: 11px;
+            height: 27px;
+                font-size: 8px;
+                    margin-bottom: 11px;
     }
     .button_submit {
         font-size: 7px;
-        width: 126px;
-        height: 27px;
+            width: 126px;
+                height: 27px;
+                    font-size: 7px;
     }
     .carousel {
         padding: 30px;
@@ -1279,13 +1388,13 @@ hr {
     }
     .slick_slider_img {
         width: 200px;
-        margin: 0 auto;
+            margin: 0 auto;
     }
     .slick-dots{
         width: 21px;
-        height: 24px;
-        font-size: 14px;
-        text-align: center;
+            height: 24px;
+                font-size: 14px;
+                    text-align: center;
     }
     .catalog {
         padding-bottom: 40px;
@@ -1298,7 +1407,7 @@ hr {
     }
     .catalog_red_tab {
         width: 90px;
-        height: 30px;
+            height: 30px;
     }
     .catalog_white_header {
         font-size: 8px;
@@ -1306,7 +1415,7 @@ hr {
     }
     .catalog_tab {
         width: 90px;
-        height: 30px;
+            height: 30px;
     }
     .catalog_header {
         font-size: 8px;
@@ -1336,24 +1445,24 @@ hr {
         font-size: 11px;
     }
     .catalog_item_price {
-        font-size: 13px;
         margin-bottom: 3px;
+        font-size: 13px;
     }
     .button_catalog_btn {
-        font-size: 8px;
         width: 230px;
-        height: 28px;
+            height: 28px;
+                font-size: 8px;
     }
     .reviews {
         padding-bottom: 40px;
     }
     .reviews_title {
-        font-size: 17px;
         margin-bottom: 20px;
+        font-size: 17px;
     }
     .review_img {
         width: 81px;
-        height: 79px;
+            height: 79px;
     }
     .review_name_surname {
         font-size: 12px;
@@ -1366,16 +1475,16 @@ hr {
     }
     .footer_info {
         width: 183px;
-        height: 96px;
-        padding: 11px 12px 11px 12px;
+            height: 96px;
+                padding: 11px 12px 11px 12px;
     }
     .footer_addr {
         margin-bottom: 10px;
         font-size: 11px;
     }
     .footer_phone {
-        font-size: 10px;
         margin-bottom: 10px;
+        font-size: 10px;
     }
    
 }
@@ -1383,14 +1492,14 @@ hr {
 @media screen and (max-width: 320px) {
     .promo {
         min-height: 192px;
-        padding: 21px 31px 21px 31px;
+            padding: 21px 31px 21px 31px;
     }
     .promo_wrapper {
         margin-top: 30px;
     }
     .logo {
         width: 72px;
-        height: 14px;
+            height: 14px;
     }
     .header_official {
         font-size: 6px;
@@ -1404,8 +1513,8 @@ hr {
     }
     .button {
         width: 56px;
-        height: 16px;
-        font-size: 4px;
+            height: 16px;
+                font-size: 4px;
     }
     .promo_header {
         font-size: 13px;
@@ -1414,42 +1523,30 @@ hr {
     .promo_subheader {
         font-size: 10px;
     }
-    .timer {
-        width: 24px;
-        height: 23px;
-    }
-    .hand-cart {
-        width: 29px;
-        height: 26px;
-    }
-    .screen_messages {
-        width: 24px;
-        height: 23px;
-    }
     .promo_icon {
         font-size: 7px;
     }
     .promo_icons {
         width: 176px;
-        margin-top: 20px;
+            margin-top: 20px;
     }
     .timer {
         width: 23px;
-        height: 23px;
+            height: 23px;
     }
     .screen_messages {
         width: 24px;
-        height: 23px;
+            height: 23px;
     }
     .hand_cart {
         width: 26px;
-        height: 27px;
+            height: 27px;
     }
     .button_main {
         width: 119px;
-        height: 23px;
-        font-size: 6px;
-        margin-top: 20px;
+            height: 23px;
+                margin-top: 20px;
+                    font-size: 6px;
     }
     .promo_link {
         font-size: 8px;
@@ -1466,28 +1563,28 @@ hr {
     }
     .icons {
         width: 33px;
-        height: 31px;
+            height: 31px;
     }
     .benefit_icon {
         font-size: 11px;
     }
     .benefit_descr {
         transform: translateX(30%);
-        font-size: 10px;
         max-height: 21px;
         margin-bottom: 66px;
         margin-top: 6px;
+        font-size: 10px;
     }
     .benefit_icon_animated {
         width: 36px;
-        height: 33px;
+            height: 33px;
     }
     .benefit span {
         font-size: 9px;
     }
     .consultation {
         min-height: 201px;
-        padding: 50px 40px 50px 40px;
+            padding: 50px 40px 50px 40px;
     }
     .title_left {
         font-size: 12px;
@@ -1495,21 +1592,21 @@ hr {
     }
     .consultation {
         min-height: 201px;
-        padding: 30px 50px 30px 50px;
+            padding: 30px 50px 30px 50px;
     }
     .consultation_descr {
         font-size: 10px;
     }
     input {
         width: 99px;
-        height: 21px;
-        font-size: 7px;
-        margin-bottom: 7px;
+            height: 21px;
+                margin-bottom: 7px;
+                    font-size: 7px;
     }
     .button_submit {
-        font-size: 5px;
         width: 99px;
-        height: 23px;
+            height: 23px;
+                font-size: 5px;
     }
     .slick_slider_img {
         width: 180px;
@@ -1529,7 +1626,7 @@ hr {
     }
     .catalog_red_tab {
         width: 64px;
-        height: 22px;
+            height: 22px;
     }
     .catalog_white_header {
         font-size: 6px;
@@ -1537,7 +1634,7 @@ hr {
     }
     .catalog_tab {
         width: 64px;
-        height: 22px;
+            height: 22px;
     }
     .catalog_header {
         font-size: 6px;
@@ -1571,9 +1668,9 @@ hr {
         margin-bottom: 1px;
     }
     .button_catalog_btn {
-        font-size: 7px;
         width: 175px;
-        height: 24px;
+            height: 24px;
+                font-size: 7px;
     }
     .catalog_item_footer {
         margin-bottom: 18px;
@@ -1582,12 +1679,12 @@ hr {
         padding-bottom: 30px;
     }
     .reviews_title {
-        font-size: 14px;
         margin-bottom: 8px;
+        font-size: 14px;
     }
     .review_img {
         width: 69px;
-        height: 64px;
+            height: 64px;
     }
     .review_name_surname {
         font-size: 11px;
@@ -1596,23 +1693,21 @@ hr {
         font-size: 8px;
     }
     .review_descr {
-        font-size: 9px;
         margin-top: 6px;
+        font-size: 9px;
     }
     .footer_info {
         width: 134px;
-        height: 83px;
-        padding: 9px 10px 9px 10px;
+            height: 83px;
+                padding: 9px 10px 9px 10px;
     }
     .footer_addr {
         margin-bottom: 5px;
         font-size: 8px;
     }
     .footer_phone {
-        font-size: 9px;
         margin-bottom: 5px;
+        font-size: 9px;
     }
-    
 
 }
-
