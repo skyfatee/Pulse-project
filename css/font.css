@@ -1,31 +1,35 @@
 @font-face {
-    font-family: 'MuseoSans';
+    font-family: 'MuseoSansCyrl';
+    font-display: swap;
     src: local('MuseoSans-Cyrl-700'), local('MuseoSans-Cyrl'),
-        url('/fonts/MuseoSansCyrl-700.woff') format('woff');
-        font-weight: 700;
+    url('/fonts/MuseoSansCyrl-700.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MuseoSans';
+    font-family: 'MuseoSansCyrl';
+    font-display: swap;
     src: local('MuseoSans-Cyrl-500'), local('MuseoSans-Cyrl'),
-        url('/fonts/MuseoSansCyrl-500.woff') format('woff');
-        font-weight: 500;
+    url('/fonts/MuseoSansCyrl-500.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MuseoSans';
+    font-family: 'MuseoSansCyrl';
+    font-display: swap;
     src: local('MuseoSans-Cyrl-100'), local('MuseoSans-Cyrl'),
-        url('/fonts/MuseoSansCyrl-100.woff') format('woff');
-        font-weight: 100;
+    url('/fonts/MuseoSansCyrl-100.woff') format('woff');
+    font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MuseoSans';
+    font-family: 'MuseoSansCyrl';
+    font-display: swap;
     src: local('MuseoSans-Cyrl-300'), local('MuseoSans-Cyrl'),
-        url('/fonts/MuseoSansCyrl-300.woff') format('woff');
-        font-weight: 300;
+    url('/fonts/MuseoSansCyrl-300.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
 }
