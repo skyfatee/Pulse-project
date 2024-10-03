@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,15 @@
         <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/slick.css">
-        <link rel="stylesheet" href="/css/magnific-popup.css">
         <link rel="stylesheet" href="../sass/style.scss">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="icon" href="../img/logo/favicon_ico.png" type="image/x-icon">
     </head>
     <body>
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="http://192.168.1.205:5500/src/index.html#order:~:text=%D0%9A%D0%90%D0%A2%D0%90%D0%9B%D0%9E%D0%93%20%D0%9F%D0%A3%D0%9B%D0%AC%D0%A1%D0%9E%D0%9C%D0%95%D0%A2%D0%A0%D0%9E%D0%92,%D0%94%D0%9B%D0%AF%20%D0%A2%D0%A0%D0%98%D0%90%D0%A2%D0%9B%D0%9E%D0%9D%D0%90" class="header__logo">       
@@ -26,8 +27,8 @@
                         <span>Garmin, Polar, Suunto</span>
                     </div>
                         <div class="header_contacts">
-                            <a href="tel:+74999228974" class="header_phone">+7 (499) 922-89-74</a>
-                            <button data-modal="consultation" class="button">Заказать звонок</button>
+                        <a href="tel:+74999228974" class="header_phone">+7 (499) 922-89-74</a>
+                        <button data-modal="consultation" class="button">Заказать звонок</button>
                 </div>
     </header>
 
@@ -64,7 +65,7 @@
     </div>
     </section>
 
-    <section class="benefit">
+    <div class="benefit">
         <div class="container">
             <div class="title"> 
                 Наши Преимущества
@@ -99,7 +100,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="consultation">
         <div class="container">
@@ -113,16 +114,16 @@
             Просто заполните форму заявки<br>и мы перезвоним вам в течении 10 минут
                 </div>
 
-                    <form  class="feed-form" action="#">
+                    <form  id="consultation-form" class="feed-form" action="#">
                         <input name="name" placeholder="Ваше имя" type="text">
-                            <input name="phone" required placeholder="Ваш телефон" type="number">
+                            <input name="phone" required placeholder="Ваш телефон">
                                 <input name="email" required placeholder="Ваш E-mail" type="email">
                                     <button class="button_submit">Заказать консультацию</button>
-                            </form>
+                        </form>
                 </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
         <div>
@@ -136,8 +137,7 @@
     </div>
     </div>
     </div>
-
-    </section>
+    </div>
 
     <section class="catalog" id="catalog">
         <div class="container">
@@ -157,7 +157,7 @@
     </ul>
 
     <div class="catalog_content">
-        <div class="catalog_item">
+        <div class="catalog_item wow fadeInUp" data-wow-duration="3s">
             <div class="catalog_item_wrapper">
                 <div class="catalog_item_content">
                     <img src="../img/catalog/pulsometr-img.jpg" alt="watch" class="catalog_item_img">
@@ -170,7 +170,7 @@
         Для первых шагов в тренировках, основанных на сердечном ритме
     </div>
             
-        <a class="more" href="#">
+        <a href="#" class="catalog-item_link">
             Подробнее
                 </a>
                     </div>
@@ -192,12 +192,11 @@
     </div>
 
     <button class="button_catalog_btn">
-        Купить
-            </button>
-        </div>
+        Купить</button>
+    </div>
     </div>
 
-    <div class="catalog_item">
+    <div class="catalog_item wow fadeInUp" data-wow-duration="3s">
         <div class="catalog_item_wrapper">
             <div class="catalog_item_content">
                 <img src="../img/catalog/pulsometr-img.jpg" alt="watch" class="catalog_item_img">
@@ -210,13 +209,18 @@
         Для первых шагов в тренировках, основанных на сердечном ритме
     </div>
                     
-        <a class="more" href="#">
+        <a href="#" class="catalog-item_link">
             Подробнее
                 </a>
                     </div>
-                        <div class="catalog_item_list">
-                    </div>
-            </div>
+                        <!-- <ul class="catalog-item_list_active">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item_back">назад</a>
+                    </ul> -->
+        </div>
     <hr>
 
     <div class="catalog_item_footer">
@@ -232,14 +236,14 @@
     </div>
 
     <button class="button_catalog_btn">
-        Купить
-            </button>
-        </div>
+        Купить</button>
+    </div>
     </div>
 
-    <div class="catalog_item">
+    <div class="catalog_item wow fadeInUp" data-wow-duration="3s">
         <div class="catalog_item_wrapper">
             <div class="catalog_item_content">
+                <div class="catalog-item_list"></div>
                 <img src="../img/catalog/pulsometr-img.jpg" alt="watch" class="catalog_item_img">
 
                     <div class="catalog_item_subtitle">
@@ -250,7 +254,7 @@
         Для первых шагов в тренировках, основанных на сердечном ритме
     </div>
                     
-        <a class="more" href="#">
+        <a href="#" class="catalog-item_link">
             Подробнее
                 </a>
                     </div>
@@ -271,20 +275,139 @@
             </div>
                 </div>
                     <button class="button_catalog_btn">
-                        Купить
-                    </button>
+                        Купить</button>
                 </div>
             </div>
         </div>
+
+    <div class="catalog_content">
+        <div class="catalog_item wow fadeInUp" data-wow-duration="3s">
+            <div class="catalog_item_wrapper">
+                <div class="catalog_item_content">
+                <img src="../img/catalog/pulsometr-img.jpg" alt="watch" class="catalog_item_img">
+
+                        <div class="catalog_item_subtitle">
+                            Пульсометр Polar FT1
+    </div>
+
+    <div class="catalog_item_descr">
+        Для первых шагов в тренировках, основанных на сердечном ритме
+    </div>
+            
+        <a href="#" class="catalog-item_link">
+            Подробнее
+                </a>
+                    </div>
+                        <div class="catalog_item_list">
+                    </div>
+            </div>
+    <hr>
+
+    <div class="catalog_item_footer">
+
+        <div class="catalog_item_prices">
+            <div class="catalog_item_old_price">
+                4 750 руб.
+    </div>
+
+    <div class="catalog_item_price">
+        4 500 руб.
+            </div>
+    </div>
+
+    <button class="button_catalog_btn">
+        Купить</button>
+    </div>
+    </div>
+
+    <div class="catalog_content">
+        <div class="catalog_item wow fadeInUp" data-wow-duration="3s">
+            <div class="catalog_item_wrapper">
+                <div class="catalog_item_content">
+                <img src="../img/catalog/pulsometr-img.jpg" alt="watch" class="catalog_item_img">
+
+                    <div class="catalog_item_subtitle">
+                        Пульсометр Suunto M2
+    </div>
+
+    <div class="catalog_item_descr">
+        Для первых шагов в тренировках, основанных на сердечном ритме
+    </div>
+            
+        <a href="#" class="catalog-item_link">
+            Подробнее
+                </a>
+                    </div>
+                        <div class="catalog_item_list">
+                    </div>
+            </div>
+    <hr>
+
+    <div class="catalog_item_footer">
+
+        <div class="catalog_item_prices">
+            <div class="catalog_item_old_price">
+                6 690 руб.
+    </div>
+
+    <div class="catalog_item_price">
+        6 641 руб.
+            </div>
+    </div>
+
+    <button class="button_catalog_btn">
+        Купить</button>
+    </div>
+    </div>
+
+    <div class="catalog_content">
+        <div class="catalog_item wow fadeInUp" data-wow-duration="3s">
+            <div class="catalog_item_wrapper">
+                <div class="catalog_item_content">
+                <img src="../img/catalog/pulsometr-img.jpg" alt="watch" class="catalog_item_img">
+
+                    <div class="catalog_item_subtitle">
+                        Пульсометр Polar FT4    
+    </div>
+
+    <div class="catalog_item_descr">
+        Для первых шагов в тренировках, основанных на сердечном ритме
+    </div>
+            
+        <a href="#" class="catalog-item_link">
+            Подробнее
+                </a>
+                    </div>
+                        <div class="catalog_item_list">
+                    </div>
+            </div>
+    <hr>
+
+    <div class="catalog_item_footer">
+
+        <div class="catalog_item_prices">
+            <div class="catalog_item_old_price">
+                6 690 руб.
+    </div>
+
+    <div class="catalog_item_price">
+        6 641 руб.
+            </div>
+    </div>
+
+    <button class="button_catalog_btn">
+        Купить</button>
+    </div>
+    </div>
     </section>
     
-    <section class="reviews">
+    <div class="reviews">
         <div class="container">
             <div class="reviews_title"> 
                 отзывы клиентов
     </div>
 
-    <div class="review_item">
+    <div class="review_item wow fadeInUp"  data-wow-duration="2s">
         <img src="../icons/reviews/photo_1.svg" alt="Irina" class="review_img">
             <div class="review_text">
                 <div class="review_name_surname">Ирина Иванченко</div>
@@ -295,10 +418,10 @@
                             <br><br> Новые цели - новый гаджет!
                             <br><br> Спасибо, RunSmart! 
                         </div>
-                    </div>
-                </div>
+            </div>
+    </div>
 
-    <div class="review_item">
+    <div class="review_item wow fadeInUp"  data-wow-duration="2s">
         <img src="../icons/reviews/photo_2.svg" alt="Ivan" class="review_img">
             <div class="review_text">
                 <div class="review_name_surname">Иван Сёмочкин</div>
@@ -309,7 +432,7 @@
                     </div>
                 </div>
 
-    <div class="review_item">
+    <div class="review_item wow fadeInUp"  data-wow-duration="2s">
         <img src="../icons/reviews/photo_3.svg" alt="Julia" class="review_img">
             <div class="review_text">   
                 <div class="review_name_surname">Юлия Дашкина</div>
@@ -321,7 +444,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </div>
 
     <footer class="footer"> 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4101171511234!2d37.64427794150011!3d55.768748690874524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a6367b51bd7%3A0x3b7e3a741913ef24!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsINC0LjPRgTEsINCc0L7RgdC60LLQsCwgMTA3MDc4!5e0!3m2!1sru!2sru!4v1725285083815!5m2!1sru!2sru" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -342,8 +465,8 @@
                     <div class="modal_descr">и мы перезвоним вам в течении 10 минут</div>
                         <form class="feed-form feed-form_mt25" action="#">
                             <input name="name" placeholder="Ваше имя" type="text">
-                                <input name="phone" required placeholder="Ваш телефон" type="number">
-                                    <input name="email" required placeholder="Ваш E-mail" type="email">
+                                <input name="phone" placeholder="Ваш телефон">
+                                    <input name="email" placeholder="Ваш E-mail" type="email">
 
                                     <button class="button_submit">Заказать консультацию</button>
                                 </form>
@@ -357,7 +480,7 @@
                     <div class="modal_descr">Пульсометр Polar FT1</div>
                         <form class="feed-form feed-form_mt25" action="#">
                             <input name="name" placeholder="Ваше имя" type="text">
-                                <input name="phone" required placeholder="Ваш телефон" type="number">
+                                <input name="phone" required placeholder="Ваш телефон">
                                     <input name="email" required placeholder="Ваш E-mail" type="email">
 
                                     <button class="button_submit">Купить</button>
@@ -373,11 +496,18 @@
                 </div>
             </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <a href="#up" class="pageup">
+    <img src="../icons/arrows/circle-chevron-up.svg" alt="up" class="pageup_img">
+    </a>
+    
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="../js/jquery.validate.min.js"></script>
     <script src="../js/slick.min.js"></script>
     <script src="../js/script.js"></script>
-
+    <script src="../js/wow.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="https://www.sng-it.ru/bitrix/templates/master/js/jquery.inputmask.bundle.min.js"></script>
 </body>
 </html>
