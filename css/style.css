@@ -1,3 +1,7 @@
+@import url(../css/font.css);
+@import url(../css/animate.min.css);
+@import url(../css/slick.css);
+
 * {
     font-family: 'MuseoSansCyrl', sans-serif;
 }
