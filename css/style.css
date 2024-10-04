@@ -1,6 +1,7 @@
 @import url(../css/font.css);
 @import url(../css/animate.min.css);
 @import url(../css/slick.css);
+@import url(../css/bootstrap-reboot.min.css);
 
 * {
     font-family: 'MuseoSansCyrl', sans-serif;
