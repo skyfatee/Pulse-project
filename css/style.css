@@ -188,14 +188,13 @@
     margin-top: 20px;
     color: #0D0D0D;
     text-align: center;
-    font-weight: 300;
     font-size: 14px;
     font-weight: 300;
 }
     .benefit span {
     display: inline;
     color: #F00;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-decoration-line: underline;
     text-transform: uppercase;
