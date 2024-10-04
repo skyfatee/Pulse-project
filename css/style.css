@@ -4,7 +4,7 @@
 @import url(../css/bootstrap-reboot.min.css);
 
 * {
-    font-family: 'MuseoSansCyrl', sans-serif;
+    font-family: 'MuseoSansCyrl';
 }
     .container {
     max-width: 950px;
