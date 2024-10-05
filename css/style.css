@@ -4,7 +4,7 @@
 @import url(../css/bootstrap-reboot.min.css);
 
 * {
-    font-family: 'MuseoSansCyrl';
+    font-family: 'MuseoSansCyrl', sans-serif;
 }
     .container {
     max-width: 950px;
@@ -122,7 +122,7 @@
 
     color: #FFF;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -279,7 +279,7 @@
     .catalog {
     padding-bottom: 100px;
 }
-.catalog_title {
+    .catalog_title {
     color: #0D0D0D;
     text-align: center;
     font-size: 30px;
@@ -522,11 +522,12 @@
     .overlay {
     display: none;
     width: 100%;
+    height: 100%;
     top: 0;
 }
     .modal {
-    width: 421px;
-    height: 542px;
+    width: 422px;
+    height: 510px;  
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -536,22 +537,24 @@
 }
     .error {
     border: 1px solid rgb(255, 0, 0);        
-    }
+}
     label.error {
     text-align: center;
     font-size: 13px;
     border: none;
     margin-bottom: 15px;
-    }
+}
     #consultation-form {
     color: #FFF;
-    }
+}
     .modal_close {
+    width: 21px;
+    height: 21px;
     position: absolute;
     right: 5px;
-    top: 14px;
+    top: 10px;
     font-size: 41px;
-    line-height: 9px;
+    line-height: 21px;
     color: #C70101;
     cursor: pointer 
 }
@@ -564,7 +567,7 @@
     .modal_descr {
     color: #0D0D0D;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
     .feed-form_mt25 {
@@ -585,13 +588,11 @@
 }
     .pageup {
     display: none;
-    position: fixed;
     bottom: 40px;
     right: 40px;
     width: 40px;
     height: 40px;
 }
-
     .pageup_img {
     width: 100%;
 }
@@ -600,266 +601,20 @@
 
 @media screen and (max-width: 768px) {
 
-
-}
-
-@media screen and (max-width: 576px) {
-    .container {
-    max-width: 475px;
-    }
-    .promo {
-    min-height: 433px;
-    }
-    .promo_wrapper {
-    margin-top: 60px;
-    }
-    .logo {
-    width: 167px;
-    height: 30px;
-    }
-    .header_official{
-    font-size: 9px;
-    }
-    .header_phone {
-    font-size: 12px;
-    }
-    .button{
-    width: 114px;
-    height: 27px;
-    font-size: 9px;
-    }
-    .button_main{
-    width: 230px;
-    height: 40px;
-    margin-top: 47px;
-    font-size: 12px;
-    }
-    span {
-    font-size: 12px;
-    }
-    .promo_header {
-    font-size: 28px;
-    line-height: 37px;
-    }
-    .promo_subheader {
-    margin-top: 10px;
-    font-size: 16px;
-    }
-    .promo_icon {
-    width: 90px;
-    font-size: 12px;
-    }
-    .timer {
-    width: 36px;
-    height: 34px;
-    }
-    
-    .hand_cart {
-    width: 36px;
-    height: 34px;
-    }
-    .screen_messages{
-    width: 36px;
-    height: 34px;
-    }
-    a {
-    font-size: 12px;
-    }
-    .promo_link {
-    margin-top: 15px;
-    font-size: 12px;
-    }
-    .benefit {
-    min-height: 376px;
-    padding: 48px 0 48px 0;
-    }
-    .title {
-    margin-bottom: 40px;
-    font-size: 21px;
-    }
-    .icons {
-    width: 46px;
-    height: 43px;
-    }
-    .benefit_icon_animated{
-    width: 46px;
-    height: 43px;
-    }
-    .benefit_icon{
-    min-width: 46px;
-    min-height: 43px;
-    margin-right: 12px;
-    font-size: 16px;
-    }
-    .benefit_descr{
-    max-width: 179px;
-    max-height: 61px;
-    margin-top: 13px;
-    font-size: 12px;
-    }
-    .benefit span {
-    font-size: 12px;
-    }
-    .consultation {
-    min-height: 453px;
-    padding: 70px 0 70px 0;
-    }
-    .title_left {
-    font-size: 24px;
-    }
-    .consultation_descr {
-    font-size: 16px;
-    }
-    .feed-form {
-    width: 200px;
-    }
-    input {
-    width: 202px;
-    height: 36px;
-    font-size: 10px;
-    }
-    .button_submit {
-    height: 38px;
-    font-size: 11px;
-    }
-    .carousel {
-    padding: 60px 0;
-    }
-    .slick_slider_img {
-    width: 300px;
-    height: 225px;
-    }
-    .catalog {
-    padding-bottom: 80px;
-    }
-    .catalog_title {
-    font-size: 20px; 
-    }
-    .catalog_tabs {
-    margin-top: 33px;
-    }
-    .catalog_tab {
-    width: 157px;
-    height: 39px;
-    margin: 0 10px;
-    }
-    .catalog_red_tab {
-    width: 157px;
-    height: 39px;
-    margin: 0 10px;
-    }
-    .catalog_white_header {
-    font-size: 12px;
-    line-height: 39px;
-    }
-    .catalog_header {
-    font-size: 12px; 
-    line-height: 39px;  
-    }
-    .catalog_content {
-    justify-content: center;
-    margin-top: 25px;
-    }
-    .catalog_item {
-    min-height: 294px;
-    width: 202px;
-    margin-top: 40px;
-    margin-right: 15px;
-    padding: 18px 14px 16px 18px;
-    }
-    .catalog_item_content {
-    height: 300px;
-    }
-    .catalog_item_img {
-    max-width: none;
-    height: 150px;
-    }
-    .catalog_item_subtitle {
-    margin-top: 15px;
-    font-size: 14px;
-    }
-    .catalog_item_descr {
-    margin-top: 10px;
-    font-size: 12px;
-    }
-    .more {
-    margin: 8px 0px 12px 0px;
-    font-size: 9px;
-    }
-    .catalog_item_old_price {
-    font-size: 12px;
-    }
-    .catalog_item_price {
-    font-size: 14px;
-    }
-    .button_catalog_btn {
-    width: 90px;
-    height: 29px;
-    font-size: 9px;
-    }
-    .reviews {
-    padding-bottom: 50px;
-    }
-    .reviews_title {
-    margin-bottom: 50px;
-    font-size: 24px;
-    }
-    .review_img {
-    margin-top: 50px;
-    width: 132px;
-    height: 131px;
-    }
-    .review_name_surname {
-    font-size: 16px;
-    }
-    .review_subtitle {
-    font-size: 12px;
-    }
-    .review_descr {
-    font-size: 13px;
-    }
-    .review_text {
-    margin-left: 41px;
-    margin-top: 45px;
-    padding-right: 50px;
-    }
-    .footer_info {
-    width: 300px;
-    height: 210px;
-    padding: 33px 35px 37px 35px;
-    }
-    .footer_addr {
-    margin-bottom: 30px;
-    font-size: 17px;
-    }
-    .footer_phone {
-    margin-bottom: 26px;
-    font-size: 16px;
-    }
-    .footer_social-item {
-    margin: 0 15px;
-    }
-    .footer_social-icons {
-    width: 41px;
-    height: 42px;
-    }
-    .footer_social-item {
-    margin: 0 15px;
-    }
 }
 
 @media screen and (max-width: 425px) {
     .promo {
     min-height: 377px;
     padding: 21px 30px 41px 30px;
-    }
+}
     .promo_wrapper {
     margin-top: 50px;
-    }
+}
     .logo {
     width: 113px;
     height: 21px;
-    }
+}
     .header_official {
     font-size: 7px;
     }
@@ -869,26 +624,26 @@
     }
     .header_phone {
     font-size: 8px;
-    }
+}
     .button {
     width: 90px;
     height: 23px;
     font-size: 7px;
-    }
+}
     .promo_header {
     font-size: 18px;
     line-height: 28px;
-    }
+}
     .promo_subheader {
     font-size: 14px ;
-    }
+}
     .promo_icons {
     width: 263px;
     margin-top: 40px;
-    }
+}
     .promo_icon {
     font-size: 9px;
-    }
+}
     .timer {
     width: 32px;
     height: 30px;
@@ -896,37 +651,37 @@
     .hand_cart {
     width: 32px;
     height: 30px;
-    }
+}
     .screen_messages {
     width: 32px;
     height: 30px;;
-    }
+}
     .button_main {
     width: 136px;
     height: 33px;
     margin-top: 35px;
     font-size: 8px;
-    }
+}
     .promo_link {
     margin-top: 12px;
     font-size: 10px
-    }
+}
     .catalog-item_link {
     font-size: 10px;
-    }
+}
     .benefit {
     padding: 38px 0 38px 0;
-    }
+}
     .title {
     margin-bottom: 30px;
     font-size: 16px;
-    }
+}
     .benefit_wrapper {
     display: block;
-    }
+}
     .benefit_icon {
     font-size: 12px;
-    }
+}
     .icons {
     width: 46px;
     height: 43px;
@@ -934,172 +689,175 @@
     .benefit_icon_animated {
     width: 46px;
     height: 43px;
-    }
+}
     .benefit_descr {
     max-width: 169px;
     margin: 8px auto 25px auto;
     font-size: 11px;
-    }
+}
     .benefit span {
     font-size: 11px;
-    }
+}
     .consultation {
     min-height: 303px;
     padding: 50px 61px 50px 61px;
-    }
+}
     .title_left {
     margin-bottom: 10px;
     font-size: 12px;
-    }
+}
     .consultation_descr {
-    font-size: 14px;
-    }
+    font-size: 11px;
+}
     .feed-form {
-    margin-top: 24px;
-    }
+    margin-top: 21px;
+}
     input {
-    width: 154px;
-    height: 33px;
+    width: 152px;
+    height: 31px;
     font-size: 8px;
     margin-bottom: 13px;
-    }
+}
     label.error {
     text-align: start;
     font-size: 8px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 9px;
+    }
     .modal {
     width: 321px;
-    height: 311px;
-    padding: 40px 60px 40px 60px;
-    }
+    height: 363px;
+    padding: 55px 50px 0px 55px;
+}
     .modal_subtitle {
-    font-size: 13px;
-    }
-    .modal_descr {
     font-size: 11px;
 }
+    .modal_descr {
+    font-size: 10px;
+}
+    .modal_close {
+    font-size: 31px;
+}
     .button_submit {
-    width: 154px;
-    height: 33px;
+    width: 152px;
+    height: 31px;
     font-size: 8px;
-    }
+}
     .carousel {
     padding: 45px;
-    }
+}
     .slick_slider_img {
     width: 300px;
     height: 200px;
     margin: 0 auto;
-    }
+}
     .catalog {
     padding-bottom: 50px;
-    }
+}
     .catalog_title {
     font-size: 16px;
     line-height: 29px;
-    }
+}
     .catalog_tabs {
     margin-top: 23px;
-    }
+}
     .catalog_red_tab {
-    width: 120px;
-    height: 39px;
-    }
+    width: 113px;
+    height: 36px;
+}
     .catalog_white_header {
     font-size: 10px;
-    line-height: 40px;
-    }
+    line-height: 39px;
+}
     .catalog_tab {
-    width: 120px;
-    height: 39px;
-    }
+    width: 113px;
+    height: 36px
+}
     .catalog_header {
     font-size: 10px;
     line-height: 35px;
-    }
+}
     .catalog_content {
     display: block;
-    }
+}
     .catalog_item {
     margin-right: 0px;
     width: 100%;
-    padding: 16px 50px 10px 50px;
-    }
+    padding: 16px 70px 23px 70px;
+}
     .catalog_item_content {
     height: 100%;
-    }
+}
     .catalog_item_img {
     height: 133px;
-    }
+}
     .catalog_item_subtitle {
     margin-top: 12px;
     font-size: 12px;
-    }
+}
     .catalog_item_descr {
     font-size: 12px;
-    }
+}
     .catalog-item_link{
     font-size: 9px;
-    }
+}
     hr {
     margin: 15px 0 13px 0;
-    }
+}
     .catalog_item_old_price {
     width: 48px;
     font-size: 10px;
-    }
+}
     .catalog_item_price {
     width: 55px;
     font-size: 11px;
     margin-bottom: 5px;
-    }
+}
     .button_catalog_btn {
-    width: 150px;
+    width: 180px;
     height: 31px;
     font-size: 8px;
-    margin-left: 125px;
-    }
+    margin-left: 100px;
+}
     .reviews {
     padding-bottom: 50px;
-    }
+}
     .reviews_title {
     margin-bottom: 20px;
     font-size: 16px;
-    }
+}
     .review_img {
     width: 93px;
     height: 91px;
     margin-top: 65px;
-    }
+}
     .review_text {
     margin-left: 46px;
     margin-top: 40px;
-    padding-right: 70px;
-    }
+    padding-right: 42px;
+}
     .review_name_surname {
     font-size: 11px;
-    }
+}
     .review_subtitle {
     font-size: 9px;
-    }
+}
     .review_descr {
     margin-top: 7px;
     font-size: 10px;
-    }
+}
     .footer_info {
     width: 209px;
     height: 106px;
     padding: 23px 21px 23px 21px;
-    }
+}
     .footer_addr {
     margin-bottom: 20px;
     font-size: 10px;
-    }
+}
     .footer_phone {
     margin-bottom: 20px;
     font-size: 11px;
-    }
+}
     .pageup_img {
     width: 65%;
     margin: 50px 0 50px 50px;
@@ -1110,257 +868,281 @@
     .promo {
     min-height: 288px;
     padding: 21px 40px 21px 40px;
-    }
+}
     .promo_wrapper {
     margin-top: 35px;
-    }
+}
     .logo {
     width: 91px;
     height: 16px;
-    }
+}
     .header_official {
     font-size: 6px;
-    }
+}
     span {
     font-size: 6px;
-    }
+}
     .header_phone {
     font-size: 7px;
-    }
+}
     .button {
     width: 63px;
     height: 19px;
     font-size: 5px;
-    }
+}
     .promo_header {
     font-size: 14px;
     line-height: 20px;
-    }
+}
     .promo_subheader {
     font-size: 11px;
     line-height: 13px;
-    }
+}
     .timer {
     width: 26px;
     height: 26px;
-    }
+}
     .hand_cart {
     width: 29px;
     height: 29px;
-    }
+}
     .screen_messages {
     width: 26px;
     height: 26px;
-    }
+}
     .benefit_icon_animated {
     width: 34px;
     height: 33px;
-    }
+}
     .promo_icon {
     font-size: 7px;
-    }
+}
     .promo_icons {
     width: 241px;
     margin-top: 35px;
-    }
+}
     .button_main {
     width: 110px;
     height: 26px;
     font-size: 6px;
     margin-top: 25px;
-    }
+}
     .catalog-item_link {
     font-size: 10px;
-    }
+}
     .promo_link {
     margin-top: 9px;
     font-size: 8px;
-    }
+}
     a {
     font-size: 8px;
-    }
+}
     .title {
     margin-bottom: 25px;
     font-size: 14px;
-    }
+}
     .benefit {
     padding: 16px 0 16px 0;
-    }
+}
     .benefit_icon {
     font-size: 10px;
-    }     
+}     
     .icons {
     width: 39px;
     height: 36px;
-    }
+}
     .benefit_icon_animated{
     width: 39px;
     height: 36px;
-    }
+}
     .benefit_descr {
     max-width: 139px;
     margin: 8px auto 20px auto;
     font-size: 9px;
-    }
+}
     .benefit span {
     font-size: 9px;
-    }
+}
     .title_left {
     margin-bottom: 7px;
-    font-size: 12px;
-    }
+    font-size: 11px;
+}
     .consultation {
     min-height: 300px;
     padding: 60px 66px 60px 66px;
-    }
+}
     .consultation_descr {
-    font-size: 10px;
-    }
+    font-size: 9px;
+}
     input {
     width: 123px;
     height: 26px;
     font-size: 7px;
     margin-bottom: 9px;
-    }
+}
+    .feed-form {
+    margin-top: 21px;
+}
     .button_submit {
     font-size: 7px;
     width: 123px;
     height: 26px;
     font-size: 7px;
-    }
+}
     .carousel {
     padding: 30px;
     margin-bottom: 30px;
-    }
+}
     .slick_slider_img {
     width: 200px;
     height: 150px;
     margin: 0 auto;
-    }
+}
     .catalog {
     padding-bottom: 40px;
-    }
+}
     .catalog_title {
     font-size: 14px;
     line-height: 28px;
-    }
+}
     .catalog_tabs {
     margin-top: 14px;
-    }
+}
     .catalog_red_tab {
-    width: 90px;
+    width: 86px;
     height: 30px;
-    }
+}
     .catalog_white_header {
     font-size: 7px;
-    line-height: 29px;
-    }
+    line-height: 31px;
+}
     .catalog_tab {
-    width: 90px;
+    width: 86px;
     height: 30px;
-    }
+}
     .catalog_header {
     font-size: 7px;
-    line-height: 26px;
-    }
+    line-height: 27px;
+}
     .catalog_item {
     margin-top: 30px;
     padding: 16px 70px 16px 70px;
-    }
+}
     .catalog_item_img {
     height: 96px;
-    }
+}
     .catalog_item_subtitle {
     font-size: 11px;
-    }
+}
     .catalog_item_descr {
     font-size: 10px;
     margin-top: 6px;
-    }
+}
     .catalog-item_link {
     font-size: 8px;
-    }
+}
     hr {
     margin-top: 12px;
     margin-bottom: 12px;
-    }
+}
     .catalog_item_old_price {
     margin-bottom: 2px;
     font-size: 9px;
-    }
+}
     .catalog_item_price {
     font-size: 10px;
-    }
+}
     .button_catalog_btn {
     width: 230px;
     height: 28px;
     font-size: 8px;
     margin-left: 50px;
-    }
+}
     .reviews {
     padding-bottom: 40px;
-    }
+}
     .reviews_title {
     margin-bottom: 15px;
     font-size: 14px;
-    }
+}
     .review_img {
     width: 76px;
     height: 73px;
     margin-top: 60px;
-    }
+}
     .review_text {
     margin-left: 41px;
     margin-top: 35px;
-    padding-right: 75px;
-    }
+    padding-right: 59px;
+}
     .review_name_surname {
     font-size: 9px;
-    }
+}
     .review_subtitle {
     font-size: 8px;
-    }
+}
     .review_descr {
     font-size: 8px;
-    }
+}
     .footer_info {
     width: 154px;
     height: 78px;
     padding: 11px 12px 11px 12px;
-    }
+}
     .footer_addr {
     margin-bottom: 10px;
     font-size: 8px;
-    }
+}
     .footer_phone {
     margin-bottom: 10px;
     font-size: 8px;
-    }
+}
+    .modal {
+    width: 261px;
+    height: 290px;
+    padding: 40px 45px 0px 45px;
+}
+    .modal_subtitle {
+    font-size: 10px;
+}
+    .modal_descr {
+    font-size: 8px;
+}
+    .modal_close {
+    font-size: 26px;
+    line-height: 16px;
+    right: 3px;
+}
+    label.error {
+    text-align: start;
+    font-size: 6px;
+    margin-bottom: 7px;
+}
     .pageup_img {
     width: 55%;
     margin: 50px 0px 50px 50px;
-    }
+}
 }
 
 @media screen and (max-width: 320px) {
     .promo {
     min-height: 192px;
     padding: 21px 31px 21px 31px;
-    }
+}
     .promo_wrapper {
     margin-top: 30px;
-    }
+}
     .logo {
     width: 73px;
     height: 12px;
-    }
+}
     .header_official {
     font-size: 5px;
-    }
+}
     span {
     margin-top: 4px;
     font-size: 5px;
-    }
+}
     .header_phone {
     font-size: 6px;
     }
@@ -1372,22 +1154,22 @@
     .promo_header {
     font-size: 12px;
     line-height: 10px;
-    }
+}
     .promo_subheader {
     font-size: 9px;
     margin-top: 3px;
-    }
+}
     .promo_icon {
     font-size: 6px;
-    }
+}
     .promo_icons {
     width: 176px;
     margin-top: 20px;
-    }
+}
     .timer {
     width: 21px;
     height: 21px;
-    }
+}
     .screen_messages {
     width: 21px;
     height: 21px;
@@ -1395,7 +1177,7 @@
     .hand_cart {
     width: 21px;
     height: 21px;
-    }
+}
     .button_main {
     width: 89px;
     height: 23px;
@@ -1404,13 +1186,13 @@
     }
     .promo_link {
     font-size: 7px;
-    }
+}
     a {
     font-size: 7px;
-    }
+}
     .benefit {
     padding: 16px 40px 31px 40px;
-    }
+}
     .title {
     font-size: 12px;
     margin-bottom: 21px;
@@ -1418,161 +1200,185 @@
     .icons {
     width: 31px;
     height: 29px;
-    }
+}
     .benefit_icon {
     font-size: 9px;
-    }
+}
     .benefit_descr {
     max-width: 149px;
     margin: 8px auto;
     font-size: 8px;
     margin: 0 auto 15px auto;
-    }
+}
     .benefit_icon_animated {
     width: 33px;
     height: 30px;
-    }
+}
     .benefit span {
     font-size: 9px;
-    }
+}
     .consultation {
     min-height: 201px;
     padding: 50px 40px 50px 40px;
-    }
+}
     .title_left {
-    font-size: 11px;
+    font-size: 10px;
     margin-bottom: 6px;
-    }
+}
     .consultation {
     min-height: 201px;
     padding: 40px 50px 40px 50px;
-    }
+}
     .consultation_descr {
-    font-size: 9px;
-    }
+    font-size: 8px;
+}
     input {
     width: 99px;
     height: 21px;
-    margin-bottom: 7px;
+    margin-bottom: 3px;
     font-size: 6px;
-    }
+}
+    .feed-form {
+    margin-top: 16px;
+}
     .button_submit {
     width: 99px;
     height: 23px;
     font-size: 5px;
-    }
+}
     .slick_slider_img {
     width: 160px;
     height: 120px;
-    }
+}
     .carousel {
     margin-bottom: 40px;
-    }
+}
     .catalog {
     padding-bottom: 30px;
-    }
+}
     .catalog_title {
     font-size: 12px;
     line-height: 21px;
-    }
+}
     .catalog_tabs {
     margin-top: 13px;
-    }
+}
     .catalog_red_tab {
-    width: 64px;
-    height: 22px;
-    }
+    width: 66px;
+    height: 25px;
+}
     .catalog_white_header {
     font-size: 6px;
-    line-height: 23px;
-    }
+    line-height: 26px;
+}
     .catalog_tab {
-    width: 64px;
-    height: 22px;
-    }
+    width: 66px;
+    height: 25px;
+}
     .catalog_header {
     font-size: 6px;
-    line-height: 19px;
-    }
+    line-height: 22px;
+}
     .catalog_item {
     margin-top: 20px;
     padding: 20px 60px 20px 60px;
     min-height: 260px;
-    }
+}
     .catalog_item_img {
     height: 86px;
-    }
+}
     .catalog_item_subtitle {
     font-size: 10px;
-    }
+}
     .catalog_item_descr {
     font-size: 9px;
     margin-top: 3px;
-    }
+}
     .catalog-item_link {
     font-size: 7px;
-    }
+}
     hr {
     margin-top: 10px;
     margin-bottom: 11px;
-    }
+}
     .catalog_item_old_price {
     width: 49px;
     font-size: 8px;
     margin-bottom: 1px;
-    }
+}
     .catalog_item_price {
     width: 54px;
     font-size: 9px;
-    }
+}
     .button_catalog_btn {
     width: 83px;
     height: 26px;
     font-size: 7px;
     margin-left: 40px;
-    }
+}
     .reviews {
     padding-bottom: 30px;
-    }
+}
     .reviews_title {
     margin-bottom: 6px;
     font-size: 12px;
-    }
+}
     .review_img {
     width: 66px;
     height: 63px;
     margin-top: 65px;
-    }
+}
     .review_text {
     margin-left: 51px;
     margin-top: 30px;
-    padding-right: 80px;
-    }
+    padding-right: 49px;
+}
     .review_name_surname {
     font-size: 8px;
-    }
+}
     .review_subtitle {
     font-size: 6px;
-    }
+}
     .review_descr {
     margin-top: 5px;
     font-size: 6px;
-    }
+}
     .footer_info {
     width: 134px;
     height: 68px;
     padding: 9px 18px 9px 18px;
-    }
+}
     .footer_addr {
     margin-bottom: 5px;
     font-size: 6px;
-    }
+}
     .footer_phone {
     margin-bottom: 5px;
     font-size: 7px;
+}
+    .modal {
+    width: 211px;
+    height: 213px;
+    padding: 30px 40px 0px 40px;
+}
+    .modal_subtitle {
+    font-size: 8px;
+}
+    .modal_descr {
+    font-size: 6px;
+}
+    .modal_close {
+    font-size: 21px;
+    line-height: 11px;
+    right: 1px;
     }
+    label.error {
+    text-align: start;
+    font-size: 5px;
+    margin-bottom: 4px;
+}
     .pageup_img {
     width: 50%;
     margin: 50px 0px 50px 50px;
-    }
+}
 }
